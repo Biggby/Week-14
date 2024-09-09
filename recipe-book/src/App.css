@@ -1,0 +1,42 @@
+/* App.css */
+
+/* Main container for the app */
+.container {
+  display: flex;
+  color: white;
+  height: 100vh;
+  background-color: #000000;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+/* Navigation styles */
+.navigation {
+  width: 100%;
+  background-color: #202020;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navigation input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.navigation button {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a4e69;
+  color: white;
+  cursor: pointer;
+}
+
+h4 {
+  text-align: center;
+}
+
+/* Other styles remain the same */
